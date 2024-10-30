@@ -1,0 +1,148 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 18px; /* Ajusta el tamaño de la fuente base */
+    background-color: #d0e5ec;
+}
+
+/* Barra de Navegación */
+.navbar {
+    background-color: #007bff; /* Color superior de la barra */
+    padding: 10px 0; /* Espaciado */
+}
+
+.head {
+    background-color: #45a1c0; /* Cambia a un tono medio celeste */
+    padding: 20px;
+}
+
+.navbar-brand {
+    color: #ffffff; /* Color del texto */
+    font-size: 24px; /* Tamaño de la fuente */
+    transition: color 0.5s ease; /* Transición suave */
+}
+
+/* Efecto al pasar el mouse sobre el nombre de la marca */
+.navbar-brand:hover {
+    color: #ff0000; /* Cambia el color al pasar el mouse */
+}
+
+/* Enlaces de Navegación */
+.navbar-nav .nav-link {
+    color: #000; /* Color del texto */
+    font-size: 24px; /* Tamaño de la fuente */
+    margin: 0 10px; /* Espaciado entre enlaces */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s ease, font-size 0.3s ease; /* Transición suave */
+}
+
+/* Efecto al pasar el mouse */
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Cambia el color al pasar el mouse */
+    font-size: 26px; /* Aumenta el tamaño de la fuente al pasar el mouse */
+}
+
+/* Sección de Marcas */
+.marcas {
+    list-style: none; /* Eliminar viñetas */
+    padding: 0; /* Eliminar padding */
+}
+
+.marcas .list-group-item {
+    background-color: #007bff; /* Color de fondo azul */
+    color: white; /* Color del texto blanco */
+    text-align: center; /* Centrar texto */
+    border-radius: 25px; /* Bordes redondeados */
+    margin-bottom: 10px; /* Espaciado entre elementos */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+.marcas .list-group-item a {
+    text-decoration: none; /* Sin subrayado */
+    color: white; /* Color del texto blanco */
+    display: block; /* Hacer que el enlace ocupe todo el espacio */
+    padding: 10px; /* Espaciado interno */
+}
+
+.marcas .list-group-item:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el mouse */
+}
+
+/* Encabezados */
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1.5em; 
+    margin-bottom: 22px;
+
+}
+
+/* Estilo para el Carrusel */
+
+.carousel {
+    border-radius: 20px; /* Ajusta el valor para más o menos redondeo */
+    overflow: hidden; /* Asegura que el contenido no sobresalga */
+}
+
+/* Estilo para las imágenes dentro del carrusel */
+.carousel-inner img {
+    border-radius: 20px; /* Asegura que las imágenes también tengan esquinas redondeadas */
+}
+
+/* Footer */
+footer {
+    background-color: #007bff;
+    margin-top: 30px; /* Separación del footer respecto al contenido */
+    padding: 20px 0; /* Espaciado interno del footer */
+    text-decoration: none; /* Sin subrayado */
+}
+
+/* Efectos de Tarjetas */
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.02); /* Menos incremento en la escala */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Sombra más suave */
+}
+
+/* Estilo para el Contenedor de Formularios */
+.form-container {
+    margin-bottom: 50px; /* Ajusta el valor según sea necesario */
+}
+
+.container {
+    margin-top: 10px; /* Reduce el espacio superior de la sección */
+}
+
+/* Clases de Color Personalizadas */
+.bg-primary {
+    background-color: #007bff; /* Fondo azul */
+}
+
+.text-white {
+    color: #ffffff; /* Color de texto blanco */
+}
+
+.text-center {
+    text-align: center; /* Centra el texto */
+}
+
+.py-3 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
